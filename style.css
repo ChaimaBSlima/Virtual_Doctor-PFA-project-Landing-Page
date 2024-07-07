@@ -199,7 +199,10 @@ nav ul li a:hover::after{
     width: 110%;
     height: 90%;
 }
-
+.D2 {
+    padding-top: 100px;
+    padding-top: 100px;
+}
 /*-----contact----*/
 .Con1{
     flex-basis: 45%;
