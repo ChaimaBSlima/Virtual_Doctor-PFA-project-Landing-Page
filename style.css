@@ -150,15 +150,34 @@ nav ul li a:hover::after{
     display: block;
 }
 /*------------About----------*/
-#aboutSAF{
-    padding: 30px 0;
-}
+
 .aboutlist{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 40px; 
     margin-top: 50px;
     
+}
+h2#repository a {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 15px; 
+}
+
+#repository {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+h2#repository a:first-child {
+    margin-left: 700px; }
+h2#repository a {
+    display: inline-block;
+    color: #ffffff;
+}
+h2#repository a:hover {
+    color:#2dac96;
 }
 .aboutlist div{
     color: #000000;
